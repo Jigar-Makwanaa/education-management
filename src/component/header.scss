@@ -1,0 +1,42 @@
+// header start
+
+header {
+    padding: 25px;
+    .container {
+        .row {
+            .main {
+                justify-content: space-between;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 170px;
+                    }
+                }
+                .menu {
+                    ul {
+                        li {
+                            text-transform: capitalize;
+                            padding: 0px 10px;
+                            font-weight: 600;
+                            transition: all 0.2s;
+
+                            &:hover {
+                                color: #cf2e2e;
+                            }
+
+                            a {
+                                color: black;
+
+                                &:hover {
+                                    color: #cf2e2e;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// header end
